@@ -25,14 +25,6 @@ public class FragmentDua extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_dua, container, false);
 
-        floatingActionButton = view.findViewById(R.id.fabLogin);
-        floatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), FragmentDua.class);
-                startActivity(intent);
-            }
-        });
 
         return view;
     }
